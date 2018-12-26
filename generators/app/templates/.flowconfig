@@ -1,0 +1,11 @@
+[ignore]
+
+.*node_modules/fbjs.*
+
+[lints]
+all = warn
+untyped-type = type-import-error
+sketchy-null-bool = off
+
+[options]
+include_warnings=true
